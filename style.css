@@ -1,0 +1,254 @@
+*, footer h2, footer ul li{
+    font-family:  Raleway, arial, verdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    margin: 25px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    color: black;
+    padding: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav{
+    padding: 20px;
+}
+
+header nav a{
+    margin: 0 20px;
+    transition: all 1.0s;
+}
+
+header nav a:hover{
+    color: blue;
+}
+
+main {
+    padding: 15px !important;
+    margin-bottom: 50px;
+
+}
+
+.cabecalho{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.tamanho_letra{
+    font-size: 25px;
+}
+
+.whats, .insta, .face, .linke{
+    color: black;
+    text-decoration: none;
+}
+
+.ul-contatos li{
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+
+}
+
+.cor-letra{
+    color: black;
+}
+
+.portifolio{
+    text-align: center;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #fdfdfd !important;
+}
+
+img{
+    width: 450px;
+    border-radius: 15px;
+    box-shadow: 3.5px 3.5px 3.5px 3.5px  rgba(0, 0, 0, 0.2);
+}
+li{
+    list-style-type: none;
+}
+
+footer h2{
+    font-size: 17px;
+}
+
+.sobre{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.espacoLinha, .p-port{
+    line-height: 20px;
+}
+
+.index{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.img-01{
+    width: 400px;
+}
+
+.main-index{
+    padding: 25px !important;
+}
+
+.estilos{
+    padding: 25px;
+    font-size: 40px;
+}
+
+.meus-estlios{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.index1{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.meusEstilos{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+
+.imgEstilos{
+    width: 230px;
+}
+figcaption{
+    padding: 15px !important;
+    font-size: 25px !important;
+}
+.img-01-port{
+    width: 350px;
+}
+.portifolio{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.espacoLinha{
+    text-align: justify;
+}
+p{
+    line-height: 20px !important;
+    text-align: justify;
+
+}
+.git{
+    padding: 40px;
+    display: grid;
+    grid-template-columns:30% 70%;
+}
+.imgGit{
+    width: 300px;
+}
+strong{
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: #f0f0f0;
+}
+footer ul li{
+    display: inline-block;
+    margin: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    transition: all 1.2s;
+}
+
+footer ul li a:hover{
+    color: blue;
+}
+main ul li a{
+    text-decoration: none;
+    transition: all 1.2s;
+}
+
+main ul li a:hover{
+    color: blue;
+
+}
+
+a{
+    color: black;
+}
+
+img{
+    width: 400px;
+}
+.fotoMinha{
+    width: 450px;
+}
+
+@media(max-width: 420px){
+
+    header{
+        display: inline-block;
+        padding:34.5px;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    .imgCelular{
+        width: 280px; 
+    }
+
+
+    figcaption{
+        font-size: 14px !important;
+    }
+
+    .meus-estlios{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .imgEstilos{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    .index, .sobre, .portifolio, .git{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    p{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .fotoMinha, .img-01-port{
+        width: 300px;
+    }
+
+    .imgGit{
+        width: 200px;
+    }
+    
+}
